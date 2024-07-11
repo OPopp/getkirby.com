@@ -148,7 +148,7 @@ With this route in place—and if our web server is an Apache server using our d
 In other environments, where calls to files in the `/content` folder are not routed through Kirby's router or where the original rules from the Starterkit's `.htaccess` file have not been copied 1:1, files might still be accessible via their direct file path, e.g. `http://localhost/content/downloads/myfile.pdf`. So make sure that your configure your server correctly.
 </warning>
 
-If you now you click on a file link, the file will no longer be accessible to anyone, and we can start opening up our configuration to authorized users.
+If you click on a file link now, the file will no longer be accessible to anyone, and we can start opening up our configuration to authorized users.
 
 ## Allowing authorized users back in
 
